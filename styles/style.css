@@ -1,0 +1,177 @@
+/* Common Styles  */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header Section Styles */
+/* Nav Section Styles  */
+.menu-container {
+  background-color: rgb(32, 32, 32);
+  padding: 20px;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-photo {
+  width: 120px;
+}
+
+.menus {
+  display: flex;
+}
+
+.menu {
+  margin-right: 10px;
+  padding-right: 7px;
+  font-size: 18px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+/* Banner Section Styles  */
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: orangered;
+}
+
+.banner-img {
+  width: 300px;
+}
+
+/* About Us Section Styles */
+.about-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-img {
+  width: 300px;
+}
+
+/* Our Services Section Styles  */
+
+.our-services-container {
+  padding: 40px 20px;
+  background-image: url("../images/background.png"),
+    linear-gradient(rgb(51, 51, 51), black);
+}
+
+.services-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  width: 230px;
+  height: 280px;
+  box-shadow: 4px 4px 20px gray;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 70px;
+}
+
+.service-btn {
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.service-title {
+  padding: 10px;
+}
+
+.service-description {
+  padding: 10px;
+}
+
+/* Footer Section Styles */
+.footer-container {
+  padding: 30px 50px;
+  background-color: black;
+  color: white;
+}
+
+.footer-info-container {
+  margin: 200px 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.company-info img {
+  width: 200px;
+}
+
+.footer-title {
+  font-size: 25px;
+}
+
+.footer-description {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.all-reserved {
+  margin-top: 30px;
+  text-align: center;
+}
